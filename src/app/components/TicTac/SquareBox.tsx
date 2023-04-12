@@ -8,7 +8,6 @@ type ISquareBoxProps = {
 };
 
 const SquareBox: FC<ISquareBoxProps> = ({ handleBoxClick, icon = "" }) => {
-  console.log("icon----", icon);
 
   const playerIcon = icon === "cross" ? <IoClose /> : <FaRegCircle />;
 
